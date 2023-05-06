@@ -92,10 +92,40 @@ html, body {
 /* TABLET VERSION*****************************/
 
 @media only screen and (max-width: 1024px){
-    /* MAIN */ 
 
     .main{
         flex-direction: column;
         background: #FEFF86
     }
 }
+
+/* MOBILE VERSION****************************/
+
+@media only screen and (max-width: 480px){
+    
+    /* HEADER */
+     .menu{
+         flex-direction: column;
+         align-items: stretch;
+     }
+ 
+     /* MAIN */ 
+     .articles {
+         flex-direction: column;
+         align-items: stretch;
+         background: #344D67;
+     }
+         .article{
+             background: blue;
+         }
+         .note-art{
+             background: cyan;
+         }
+ 
+     .aside{
+         background: rgb(214, 81, 147);
+     }
+         .aside-text{
+             background: #b5f74a;
+         }
+ }
