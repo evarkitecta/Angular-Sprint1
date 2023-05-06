@@ -88,3 +88,14 @@ html, body {
         .foot{
             background: #FFBF00 ;
         }
+
+/* TABLET VERSION*****************************/
+
+@media only screen and (max-width: 1024px){
+    /* MAIN */ 
+
+    .main{
+        flex-direction: column;
+        background: #FEFF86
+    }
+}
