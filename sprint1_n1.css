@@ -1,0 +1,90 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+*{
+    margin: 10px; 
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+
+/* HEADER */
+    .header {
+        background: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background: #262A56;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+            .logo{
+                background: #EA5455;
+                flex: 1 1 auto;
+            }
+            .nav{
+                background: #EA5455;
+                flex: 5 1 auto;
+            }
+            .social{
+                background: #EA5455;
+                flex: 1 1 auto;
+            }
+        
+        .header-text{
+           background: #FF7000; 
+        }
+            h1{
+                background: #FFBF00;
+            }
+
+/* MAIN */          
+    .main {
+        background: #000;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+      /* ARTICLES */ 
+        .articles{
+            background: grey ;
+            flex: 2 1 auto;
+            display:flex;
+            flex-flow: row wrap;
+        }
+            .article{
+                background: #6ECCAF;
+                flex: 1 1 40%;
+            }
+            .note-art{
+                background: #159895;
+                flex: 1 1 100%;
+            }
+
+      /* ASIDE */ 
+        .aside{
+            background: #FEA1BF;
+            flex: 1 1 auto;
+        }
+            .aside-text{
+                background: #F7C04A;
+            }
+
+/* FOOTER */ 
+    .footer {
+        background: #000;
+    }
+        .foot{
+            background: #FFBF00 ;
+        }
